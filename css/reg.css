@@ -1,0 +1,186 @@
+*{
+	/*margin: 2px;
+	padding: 5px;*/
+	font-family: 'Nunito', sans-serif;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #C7FFD8;
+}
+.main{
+	display: flex;
+    flex-direction: column;
+    width: 50%;
+    background-color: #FFFFFF;
+    margin: auto;
+    padding: 21px;
+    border-radius: 42px;
+}
+.headerimg
+{
+	background-image: url(https://orisysacademy.com/wp-content/uploads/2019/09/orisysindia-logo-300x120.png);
+    background-size: 300px;
+    height: 200px;
+    background-repeat: no-repeat;
+    width: 300px;
+    margin: auto;
+    margin-bottom: -63px;
+}
+.row1{
+	display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.name1{
+	width: 273px;
+    font-size: 17px;
+    color: black;
+    margin-top: 10px;
+}
+.textb{
+	width: 90%;
+
+    /* border-radius: 5px; */
+    text-align: center;
+    letter-spacing: 2px;
+    border-width: 1px;
+    height: 33px;
+    border-color: #C7FFD8;
+    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+
+    /*border-top-width: 0px;
+	border-right-width: 0px;
+	border-left-width: 0px;*/
+}
+.radio1,.radio2{
+	margin-top: 10px;
+}
+.radio1{
+
+    margin-left: -60px;
+}
+.radio2
+{
+	padding-left: 21px;
+	margin-left: 34px;
+}
+.rdt{
+	margin-top: 4px;
+}
+
+check-box{
+	margin-top: 15px;
+    margin-left: -55px;
+}
+.check1{
+	margin-left: 15px;
+}
+course{
+	margin-top: 10px;
+}
+.check{
+	margin-left: 43px;
+    margin-top: 6px;
+}
+.date{
+	margin-top: 65px;
+	margin-bottom: 24px;
+}
+footer{
+	background: rgba(0, 0, 0, .7);
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    /*padding-top: 54px;*/
+    flex-direction: row;
+    padding-bottom: 6px;
+    margin-top: 25px;
+    color: white;
+}
+.orisys,.contact{
+	width: 239px;
+	margin: auto;
+	text-align: center;
+	
+}
+.footlogo{
+	width: 100px;
+    height: 100px;
+
+}
+.icon1{
+	   width: 37px;
+    height: 38px;
+    padding-left: 24px;
+    margin-top: -10px;
+}
+.add{
+	font-size: 23px;
+    letter-spacing: 2px;
+
+}
+.icons{
+	margin-top: 107px;
+}
+.contact{
+	margin-top: 105px;
+}
+
+@media screen and (max-width: 500px)
+{
+	.main{
+		flex-direction: column;
+		width: 90%;
+		height: fit-content;
+	}
+	.row1{
+	
+	flex-direction: column;
+	}
+	.textb{
+	width: 90%;
+	}
+	.check1 {
+    margin-left: 57px;
+    }
+    .check {
+        margin-left: 79px;
+    	margin-top: 6px;
+     }
+     .radio1{
+
+    	margin-left: 0px;
+	}
+	.radio2
+	{
+	padding-left: 0px;
+	margin-left: 0px;
+	}
+	.rdt{
+		    margin-top: -15px;
+    		margin-left: 19px;
+	}
+
+    footer{
+     	flex-direction: column;
+     }
+     .orisys{
+     	    margin-left: 43px;
+     }
+     .contact{
+     	    margin-top: -211px;
+    	margin-left: 44px;
+    	margin-bottom: 142px;
+     }
+     .icons{
+     	    margin-top: 160px;
+    text-align: center;
+    margin-left: -37px;
+    margin-bottom: -53px;
+     }
+}
+
